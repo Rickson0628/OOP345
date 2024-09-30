@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Week3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10A39D30-4E71-4295-A00C-56A087F8D232}|Week3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Week3\\Lecture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10A39D30-4E71-4295-A00C-56A087F8D232}|Week3.vcxproj|solutionrelative:Lecture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lecture.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Week3\\Lecture.cpp",
+              "RelativeDocumentMoniker": "Lecture.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Week3\\Lecture.cpp*",
+              "RelativeToolTip": "Lecture.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-16T16:46:32.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

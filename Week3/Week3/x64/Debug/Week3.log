@@ -1,0 +1,4 @@
+﻿  Lecture.cpp
+C:\Users\ricks\OneDrive\Desktop\OOP345\Week3\Lecture.cpp(5,14): warning C4076: 'unsigned': cannot be used with type 'double'
+C:\Users\ricks\OneDrive\Desktop\OOP345\Week3\Lecture.cpp(6,14): warning C4076: 'unsigned': cannot be used with type 'double'
+  Week3.vcxproj -> C:\Users\ricks\OneDrive\Desktop\OOP345\Week3\x64\Debug\Week3.exe
