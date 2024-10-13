@@ -1,6 +1,6 @@
 #ifndef SENECA_CHARACTER_TPL_H
 #define SENECA_CHARACTER_TPL_H
-
+#include <iostream>
 #include "character.h"
 
 namespace seneca {
@@ -11,14 +11,16 @@ namespace seneca {
 		int m_healthMax{};
 		T m_health{};
 	public:
-		CharacterTpl(const char* name, int health): : Character(name), m_healthMax(healthMax), m_health(healthMax) {}
+		CharacterTpl(const char* name, int health) : Character(name), m_healthMax(health) {
+			m_health = static_cast<int>(health);
+		}
 		void takeDamage(int dmg) override {
 			m_health -= dmg;
 			if (static_cast<int>(m_health) <= 0) {
-				cout << Character::getName() << " has been defeated!\n"
+				std::cout << this->getName() << " has been defeated!\n";
 			}
 			else {
-				cout << Character::getName() << " took " << dmg << " damage, " << static_cast<int> (m_health) << " health remaining.\n";
+				std::cout << this->getName() << " took " << dmg << " damage, " << static_cast<int> (m_health) << " health remaining.\n";
 			}
 		}
 		int getHealth() const override {
@@ -28,11 +30,12 @@ namespace seneca {
 			return m_healthMax;
 		}
 		void setHealth(int health) override {
-			m_health = static_cast<T>health;
+			m_health = health;
 		}
+
 		void setHealthMax(int health) override {
 			m_healthMax = health;
-			m_health = static_cast<T>health;
+			m_health = m_healthMax;
 		}
 	};
 }
