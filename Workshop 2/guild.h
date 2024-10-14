@@ -1,23 +1,27 @@
+/*
+Name: Rickson Bozar
+Stuednt ID# 167549237
+*/
 #ifndef SENECA_GUILD_H
 #define SENECA_GUILD_H
 #include "character.h"
+#include <string>
 
 namespace seneca {
+
     class Guild {
-    private:
-        Character** m_members;      
-        size_t m_size;             
-        size_t m_capacity;          
-        char* m_name;            
-        void resize();             
+        Character** m_member;
+        std::string m_name;
+        int m_extraHP;
+        int m_count;
     public:
         Guild();
         Guild(const char* name);
-        Guild(const Guild& other);     
-        Guild& operator=(const Guild& other); 
-        Guild(Guild&& other);     
-        Guild& operator=(Guild&& other); 
-        ~Guild();                          
+        Guild(const Guild& g);
+        Guild(Guild&& g) noexcept;
+        ~Guild();
+        Guild& operator=(const Guild& g);
+        Guild& operator=(Guild&& g) noexcept;
         void addMember(Character* c);
         void removeMember(const std::string& c);
         Character* operator[](size_t idx) const;

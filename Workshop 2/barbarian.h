@@ -1,3 +1,8 @@
+/*
+Name: Rickson Bozar
+Stuednt ID# 167549237
+*/
+
 #ifndef SENECA_BARBARIAN_H
 #define SENECA_BARBARIAN_H
 #include <iostream>

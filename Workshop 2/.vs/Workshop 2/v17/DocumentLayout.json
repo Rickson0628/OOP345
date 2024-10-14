@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:team.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\weapons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:weapons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:health.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:guild.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\characterTpl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,32 +39,25 @@
       "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:barbarian.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\abilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:abilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:guild.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\4TXUMUZQ\\guild[1].cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:guild.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\guild[1].h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\weapons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:weapons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:team.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|solutionrelative:health.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\team[2].h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AD03AB6-E476-4336-992B-572624DF5A1E}|Workshop 2.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\tester_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,59 +79,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "team.cpp",
-              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp",
-              "RelativeDocumentMoniker": "team.cpp",
-              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp",
-              "RelativeToolTip": "team.cpp",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAWwFoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T02:11:36.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "guild.cpp",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.cpp",
               "RelativeDocumentMoniker": "guild.cpp",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.cpp",
               "RelativeToolTip": "guild.cpp",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAEwGEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-13T02:06:20.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "guild.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.h",
               "RelativeDocumentMoniker": "guild.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\guild.h",
               "RelativeToolTip": "guild.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwA8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T02:03:58.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "characterTpl.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\characterTpl.h",
               "RelativeDocumentMoniker": "characterTpl.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\characterTpl.h",
               "RelativeToolTip": "characterTpl.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T00:31:15.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "character.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\character.h",
               "RelativeDocumentMoniker": "character.h",
@@ -135,85 +131,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "weapons.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\weapons.h",
               "RelativeDocumentMoniker": "weapons.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\weapons.h",
               "RelativeToolTip": "weapons.h",
-              "ViewState": "AQIAABcAAAAAAAAAAAAWwCMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T00:30:40.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "archer.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\archer.h",
               "RelativeDocumentMoniker": "archer.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\archer.h",
               "RelativeToolTip": "archer.h",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAWwBQAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T01:53:22.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "team.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.h",
               "RelativeDocumentMoniker": "team.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.h",
               "RelativeToolTip": "team.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T02:09:15.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "rogue.h",
-              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\rogue.h",
-              "RelativeDocumentMoniker": "rogue.h",
-              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\rogue.h",
-              "RelativeToolTip": "rogue.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T01:55:20.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "abilities.h",
-              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\abilities.h",
-              "RelativeDocumentMoniker": "abilities.h",
-              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\abilities.h",
-              "RelativeToolTip": "abilities.h",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAA8AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T00:29:36.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "barbarian.h",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\barbarian.h",
               "RelativeDocumentMoniker": "barbarian.h",
               "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\barbarian.h",
               "RelativeToolTip": "barbarian.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-13T01:13:48.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "health.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h",
+              "RelativeDocumentMoniker": "health.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h",
+              "RelativeToolTip": "health.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-13T00:30:09.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rogue.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\rogue.h",
+              "RelativeDocumentMoniker": "rogue.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\rogue.h",
+              "RelativeToolTip": "rogue.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-13T01:55:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "team.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp",
+              "RelativeDocumentMoniker": "team.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\team.cpp",
+              "RelativeToolTip": "team.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-13T02:11:36.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "abilities.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\abilities.h",
+              "RelativeDocumentMoniker": "abilities.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\abilities.h",
+              "RelativeToolTip": "abilities.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-13T00:29:36.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "team[2].h",
+              "DocumentMoniker": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\team[2].h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\team[2].h",
+              "ToolTip": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\team[2].h [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\team[2].h [Read Only]",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T01:42:09.906Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "guild[1].h",
+              "DocumentMoniker": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\guild[1].h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\guild[1].h",
+              "ToolTip": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\guild[1].h [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\ERSHOEUX\\guild[1].h [Read Only]",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T01:43:09.08Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "guild[1].cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\4TXUMUZQ\\guild[1].cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\4TXUMUZQ\\guild[1].cpp",
+              "ToolTip": "C:\\Users\\ricks\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\4TXUMUZQ\\guild[1].cpp [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\4TXUMUZQ\\guild[1].cpp [Read Only]",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwEcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T01:43:31.759Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "tester_1.cpp",
               "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\tester_1.cpp",
               "RelativeDocumentMoniker": "tester_1.cpp",
@@ -221,21 +282,7 @@
               "RelativeToolTip": "tester_1.cpp",
               "ViewState": "AQIAAGgAAAAAAAAAAAAAAH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T02:14:28.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "health.h",
-              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h",
-              "RelativeDocumentMoniker": "health.h",
-              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP345\\Git\\OOP345\\Workshop 2\\health.h",
-              "RelativeToolTip": "health.h",
-              "ViewState": "AQIAABoAAAAAAAAAAAAWwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T00:30:09.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T02:14:28.312Z"
             }
           ]
         }

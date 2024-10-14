@@ -1,120 +1,80 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <iostream>
-#include <cstring>
+/*
+Name: Rickson Bozar
+Stuednt ID# 167549237
+*/
+
 #include "team.h"
+#include <iostream>
+
 namespace seneca {
-    Team::Team()
-        : m_members(nullptr), m_size(0), m_capacity(0), m_name(nullptr) {}
-    Team::Team(const char* name)
-        : m_members(nullptr), m_size(0), m_capacity(0) {
-        m_name = new char[strlen(name) + 1];
-        strcpy(m_name, name);
-    }
-    Team::Team(const Team& other)
-        : m_size(other.m_size), m_capacity(other.m_capacity) {
-        m_name = new char[strlen(other.m_name) + 1];
-        strcpy(m_name, other.m_name);
-        m_members = new Character * [m_capacity];
-        for (size_t i = 0; i < m_size; ++i) {
-            m_members[i] = other.m_members[i]->clone(); 
+    Team::Team() {}
+    Team::Team(const char* name) : m_name(name) {}
+    Team::Team(const Team& other) {
+        m_name = other.m_name;
+        for (const auto& member : other.m_members) {
+            m_members.push_back(member->clone());
         }
     }
     Team& Team::operator=(const Team& other) {
         if (this != &other) {
-            delete[] m_members;
-            delete[] m_name;
-            m_size = other.m_size;
-            m_capacity = other.m_capacity;
-            m_name = new char[strlen(other.m_name) + 1];
-            strcpy(m_name, other.m_name);
-            m_members = new Character * [m_capacity];
-            for (size_t i = 0; i < m_size; ++i) {
-                m_members[i] = other.m_members[i]->clone();
+            m_name = other.m_name;
+            for (const auto& member : m_members) {
+                delete member;
+            }
+            m_members.clear();
+            for (const auto& member : other.m_members) {
+                m_members.push_back(member->clone());
             }
         }
         return *this;
     }
-    Team::Team(Team&& other)
-        : m_members(other.m_members), m_size(other.m_size), m_capacity(other.m_capacity), m_name(other.m_name) {
-        other.m_members = nullptr;
-        other.m_size = 0;
-        other.m_capacity = 0;
-        other.m_name = nullptr;
+    Team::Team(Team&& other) noexcept {
+        m_name = std::move(other.m_name);
+        m_members = std::move(other.m_members);
     }
-    Team& Team::operator=(Team&& other)  {
+    Team& Team::operator=(Team&& other) noexcept {
         if (this != &other) {
-            delete[] m_members;
-            delete[] m_name;
-            m_members = other.m_members;
-            m_size = other.m_size;
-            m_capacity = other.m_capacity;
-            m_name = other.m_name;
-            other.m_members = nullptr;
-            other.m_size = 0;
-            other.m_capacity = 0;
-            other.m_name = nullptr;
+            m_name = std::move(other.m_name);
+            m_members = std::move(other.m_members);
         }
         return *this;
     }
-
     Team::~Team() {
-        for (size_t i = 0; i < m_size; ++i) {
-            delete m_members[i];
+        for (auto& member : m_members) {
+            delete member;
         }
-        delete[] m_members;
-        delete[] m_name;
     }
-
-
-    void Team::resize() {
-        m_capacity = (m_capacity == 0) ? 1 : m_capacity * 2;
-        Character** newMembers = new Character * [m_capacity];
-        for (size_t i = 0; i < m_size; ++i) {
-            newMembers[i] = m_members[i]; 
-        }
-        delete[] m_members;
-        m_members = newMembers;
-    }
-
     void Team::addMember(const Character* c) {
-        for (size_t i = 0; i < m_size; ++i) {
-            if (m_members[i]->getName() == c->getName()) {
+        for (const auto& member : m_members) {
+            if (member->getName() == c->getName()) {
                 return; 
             }
         }
-        if (m_size == m_capacity) {
-            resize(); 
-        }
-        m_members[m_size++] = c->clone(); 
+        m_members.push_back(c->clone());
     }
-
-    void Team::removeMember(const std::string& c) {
-        for (size_t i = 0; i < m_size; ++i) {
-            if (m_members[i]->getName() == c) {
-                delete m_members[i]; 
-                m_members[i] = m_members[--m_size]; 
-                std::cout << c << " has been removed from the team." << std::endl;
-                return;
+    void Team::removeMember(const std::string& name) {
+        for (auto it = m_members.begin(); it != m_members.end(); ++it) {
+            if ((*it)->getName() == name) {
+                delete* it;
+                m_members.erase(it);
+                break;
             }
         }
-        std::cout << c << " is not in the team." << std::endl;
     }
-
     Character* Team::operator[](size_t idx) const {
-        if (idx >= m_size) {
-            return nullptr; 
+        if (idx < m_members.size()) {
+            return m_members[idx];
         }
-        return m_members[idx];
+        return nullptr;
     }
-
     void Team::showMembers() const {
-        std::cout << "[Team] " << (m_name ? m_name : "No name") << std::endl;
-        if (m_size == 0) {
-            std::cout << "No team." << std::endl;
+        if (m_members.empty()) {
+            std::cout << "No team.\n";
         }
         else {
-            for (size_t i = 0; i < m_size; ++i) {
-                std::cout << i + 1 << ": " << *m_members[i] << std::endl; 
+            std::cout << "[Team] " << m_name << "\n";
+            for (size_t i = 0; i < m_members.size(); ++i) {
+                std::cout << "    " << i + 1 << ": " << *m_members[i] << "\n";
             }
         }
     }

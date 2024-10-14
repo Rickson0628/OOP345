@@ -1,3 +1,8 @@
+/*
+Name: Rickson Bozar
+Stuednt ID# 167549237
+*/
+
 #ifndef SENECA_ARCHER_H
 #define SENECA_ARCHER_H
 #include "characterTpl.h"
