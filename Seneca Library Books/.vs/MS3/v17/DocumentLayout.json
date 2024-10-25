@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:Lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:LibApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:LibApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:Publication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibAppMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:LibAppMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFC29D76-30D0-4BA6-8E17-D20EA36633B9}|MS3.vcxproj|solutionrelative:Publication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AQIAAB8AAAAAAAAAAIAwwCsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T21:08:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibAppMain.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibAppMain.cpp",
+              "RelativeDocumentMoniker": "LibAppMain.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibAppMain.cpp",
+              "RelativeToolTip": "LibAppMain.cpp",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T20:44:47.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibApp.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.h",
+              "RelativeDocumentMoniker": "LibApp.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.h",
+              "RelativeToolTip": "LibApp.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T00:41:14.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lib.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Lib.h",
+              "RelativeDocumentMoniker": "Lib.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Lib.h",
+              "RelativeToolTip": "Lib.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T04:31:01.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibApp.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.cpp",
+              "RelativeDocumentMoniker": "LibApp.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\LibApp.cpp",
+              "RelativeToolTip": "LibApp.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-02T00:40:57.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Publication.h",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.h",
+              "RelativeDocumentMoniker": "Publication.h",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.h",
+              "RelativeToolTip": "Publication.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-03T01:45:55.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Publication.cpp",
+              "DocumentMoniker": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.cpp",
+              "RelativeDocumentMoniker": "Publication.cpp",
+              "ToolTip": "C:\\Users\\ricks\\OneDrive\\Desktop\\OOP244\\MS3\\Publication.cpp",
+              "RelativeToolTip": "Publication.cpp",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAAwKwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-03T01:58:42.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
