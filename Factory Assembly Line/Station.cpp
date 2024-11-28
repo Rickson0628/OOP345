@@ -1,57 +1,62 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
 #include "Station.h"
 #include "Utilities.h"
-#include <iostream>
-#include <sstream>
-#include <iomanip>
 
 namespace seneca {
-    size_t Station::m_widthField = 0;
-    size_t Station::id_generator = 1;  
 
-    Station::Station(const std::string& record) {
-        Utilities util;
-        size_t next_pos = 0;
-        bool more = true;
+	size_t Station::m_widthField = 0;
+	size_t Station::id_generator = 0;
 
-       
-        m_itemName = util.extractToken(record, next_pos, more);
-        m_serialNumber = std::stoi(util.extractToken(record, next_pos, more));
-        m_quantity = std::stoi(util.extractToken(record, next_pos, more));
+	Station::Station(const std::string& str) {
+		Utilities util;
+		size_t next_pos = 0;
+		bool more = true;
 
-        
-        if (util.getFieldWidth() > m_widthField) {
-            m_widthField = util.getFieldWidth();
-        }
+		m_name = util.extractToken(str, next_pos, more);
+		m_serialNumber = std::stoul(util.extractToken(str, next_pos, more));
+		m_qtyInStock = std::stoul(util.extractToken(str, next_pos, more));
 
-        m_description = util.extractToken(record, next_pos, more);
+		if (m_widthField < util.getFieldWidth()) {
+			m_widthField = util.getFieldWidth();
+		}
+		m_desc = util.extractToken(str, next_pos, more);
 
-        m_id = id_generator++; 
-    }
+		m_id = ++id_generator;
+	}
 
+	size_t Station::getId() const {
+		return m_id;
+	}
 
-    const std::string& Station::getItemName() const { return m_itemName; }
+	const std::string& Station::getItemName() const {
+		return m_name;
+	}
 
-    size_t Station::getNextSerialNumber() {
-        return m_serialNumber++;
-    }
+	size_t Station::getNextSerialNumber() {
+		return m_serialNumber++;
+	}
 
-    size_t Station::getQuantity() const { return m_quantity; }
+	size_t Station::getQuantity() const {
+		return m_qtyInStock;
+	}
 
-    void Station::updateQuantity() {
-        if (m_quantity > 0) {
-            m_quantity--;
-        }
-    }
+	void Station::updateQuantity() {
+		if (m_qtyInStock > 0) {
+			--m_qtyInStock;
+		}
+	}
 
-  
-    void Station::display(std::ostream& os, bool full) const {
-        os << std::right << std::setw(3) << std::setfill('0') << m_id << " | ";
-        os << std::left << std::setw(m_widthField) << std::setfill(' ') << m_itemName << " | ";
-        os << std::right << std::setw(6) << std::setfill('0') << m_serialNumber << " | ";
-        if (full) {
-            os << std::right << std::setw(4) << std::setfill(' ') << m_quantity << " | ";
-            os << m_description.substr(m_description.find_first_not_of(" "));
-        }
-        os << std::endl;
-    }
-} 
+	void Station::display(std::ostream& os, bool full) const {
+		os << std::setw(3) << std::right << std::setfill('0') << m_id << " | "
+			<< std::setw(m_widthField) << std::setfill(' ') << std::left << m_name << " | "
+			<< std::setw(6) << std::setfill('0') << std::right << m_serialNumber << " | ";
+		if (full) {
+			os << std::setw(4) << std::setfill(' ') << m_qtyInStock << " | "
+				<< m_desc;
+		}
+		os << std::endl;
+	}
+
+} // namespace seneca
